@@ -34,3 +34,7 @@ eventbus
 感谢hongyang大神搭建wanandroid网站提供免费API
 
 感谢大佬salecoding，链接 https://github.com/salecoding/WanAndroid
+
+https://github.com/afeinoupcar/ wanandroid/raw/master/images_app/pic_01.jpg
+
+https://github.com/afeinoupcar/ wanandroid/raw/master/images_app/pic_02.jpg
