@@ -35,6 +35,22 @@ eventbus
 
 感谢大佬salecoding，链接 https://github.com/salecoding/WanAndroid
 
+#app截图
+
 ![](https://github.com/afeinoupcar/wanandroid/raw/master/images_app/pic_01.jpg)
 
-https://github.com/afeinoupcar/wanandroid/raw/master/images_app/pic_02.jpg
+![](https://github.com/afeinoupcar/wanandroid/raw/master/images_app/pic_02.jpg)
+
+![](https://github.com/afeinoupcar/wanandroid/raw/master/images_app/pic_03.jpg)
+
+![](https://github.com/afeinoupcar/wanandroid/raw/master/images_app/pic_04.jpg)
+
+![](https://github.com/afeinoupcar/wanandroid/raw/master/images_app/pic_05.jpg)
+
+![](https://github.com/afeinoupcar/wanandroid/raw/master/images_app/pic_06.jpg)
+
+![](https://github.com/afeinoupcar/wanandroid/raw/master/images_app/pic_07.jpg)
+
+![](https://github.com/afeinoupcar/wanandroid/raw/master/images_app/pic_08.jpg)
+
+![](https://github.com/afeinoupcar/wanandroid/raw/master/images_app/pic_09.jpg)
