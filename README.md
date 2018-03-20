@@ -35,7 +35,7 @@ eventbus
 
 感谢大佬salecoding，链接 https://github.com/salecoding/WanAndroid
 
-#app截图
+# app截图
 
 ![](https://github.com/afeinoupcar/wanandroid/raw/master/images_app/pic_01.jpg)
 
