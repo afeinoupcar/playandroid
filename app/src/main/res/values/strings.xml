@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Play Android</string>
+    <string name="toast_exit_app_str">再按一次退出PlayAndroid</string>
+    //SplashActivity
+    <string name="jump_advertising">跳过广告</string>
+    //MainActivity
+    <string name="navigation_home">首页</string>
+    <string name="navigation_study">知识体系</string>
+    //LoginActivity
+    <string name="user_name">请输入用户名</string>
+    <string name="user_pass">请输入密码</string>
+    <string name="login_btn">登录</string>
+    <string name="register_btn">注册</string>
+    //HotFragment
+    <string name="hot_search">热词搜索</string>
+    <string name="hot_url">常用网站</string>
+    <string name="share_article_url">%1$s分享【%2$s】链接：%3$s</string>
+    <string name="share_type_url">%1$s 分享★%2$s★ 链接：http://www.wanandroid.com/article/list/0?cid=%3$d</string>
+    <string name="share_title">分享</string>
+    <string name="like_title">收藏</string>
+    <string name="browser_title">用系统浏览器打开</string>
+</resources>

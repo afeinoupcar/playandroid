@@ -1,0 +1,11 @@
+<resources>
+    <string name="no_network_message">当前网络连接不可用</string>
+    <string name="error_network_message">网络连接异常</string>
+    <string name="error_200_network_message">解析异常</string>
+
+    <string name="text_list_footer_load_fail">加载失败,点击重试</string>
+    <string name="text_list_footer_loading">加载中</string>
+
+    <color name="c_b3b3b3">#b3b3b3</color>
+
+</resources>
