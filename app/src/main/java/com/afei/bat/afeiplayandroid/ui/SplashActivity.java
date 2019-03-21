@@ -98,7 +98,7 @@ public class SplashActivity extends BaseActivity {
 
     private void loadImg() {
         Glide.with(this).
-                load("http://www.3vsheji.com/uploads/allimg/151222/1F92594D_0.jpg")
+                load("http://hbimg.b0.upaiyun.com/6711ed3ac94e559b45efba61c289e44ad1878e171e5aa-5MVEu4_fw658")
                 .transition(new DrawableTransitionOptions().crossFade(600))
                 .into(activitySplashJumpImg);
     }
