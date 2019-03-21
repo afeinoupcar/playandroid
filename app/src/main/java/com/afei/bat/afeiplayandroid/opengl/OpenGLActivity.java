@@ -4,11 +4,12 @@ import android.app.ActivityManager;
 import android.content.pm.ConfigurationInfo;
 import android.opengl.GLSurfaceView;
 import android.os.Build;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.widget.Toast;
 
 import com.afei.bat.afeiplayandroid.R;
+
+import androidx.appcompat.app.AppCompatActivity;
 
 public class OpenGLActivity extends AppCompatActivity {
 

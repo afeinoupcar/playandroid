@@ -1,11 +1,9 @@
 package com.afei.bat.afeiplayandroid.ui;
 
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.afei.bat.afeiplayandroid.MyApplication;
 import com.afei.bat.afeiplayandroid.R;
 import com.afei.bat.afeiplayandroid.ui.base.BaseActivity;
 import com.alibaba.android.arouter.launcher.ARouter;
@@ -16,6 +14,7 @@ import com.ltf.util.LogUtil;
 import java.util.Timer;
 import java.util.concurrent.TimeUnit;
 
+import androidx.appcompat.widget.Toolbar;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;

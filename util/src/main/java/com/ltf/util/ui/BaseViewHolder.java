@@ -1,7 +1,8 @@
 package com.ltf.util.ui;
 
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
+
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by justin on 16/12/3.

@@ -1,8 +1,9 @@
 package com.ltf.util;
 
-import android.support.design.widget.Snackbar;
 import android.view.View;
 import android.widget.TextView;
+
+import com.google.android.material.snackbar.Snackbar;
 
 /**
  * Created by justin on 16/12/3.

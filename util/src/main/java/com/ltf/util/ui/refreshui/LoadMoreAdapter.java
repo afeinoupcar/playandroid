@@ -1,8 +1,6 @@
 package com.ltf.util.ui.refreshui;
 
 import android.content.Context;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -12,6 +10,9 @@ import android.widget.TextView;
 import com.ltf.util.R;
 import com.ltf.util.ui.BaseRecyclerAdapter;
 import com.ltf.util.ui.BaseViewHolder;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 /**
  * Created by justin on 16/12/3.

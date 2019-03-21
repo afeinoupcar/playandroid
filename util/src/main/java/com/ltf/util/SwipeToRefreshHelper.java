@@ -3,14 +3,15 @@ package com.ltf.util;
 import android.app.Activity;
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v4.widget.SwipeRefreshLayout.OnRefreshListener;
+
 import android.util.TypedValue;
+
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 /**
  * Created by justin on 16/12/3.
  */
-public class SwipeToRefreshHelper implements OnRefreshListener {
+public class SwipeToRefreshHelper implements SwipeRefreshLayout.OnRefreshListener {
     private SwipeRefreshLayout mSwipeRefreshLayout;
     private RefreshListener mRefreshListener;
     private boolean mRefreshing;

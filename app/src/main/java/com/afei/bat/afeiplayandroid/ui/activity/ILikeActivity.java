@@ -1,21 +1,15 @@
 package com.afei.bat.afeiplayandroid.ui.activity;
 
 import android.os.Bundle;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.TextView;
 
 import com.afei.bat.afeiplayandroid.R;
 import com.afei.bat.afeiplayandroid.bean.CollectList;
-import com.afei.bat.afeiplayandroid.bean.KnowledgeList;
 import com.afei.bat.afeiplayandroid.biz.AddRemoveModel;
 import com.afei.bat.afeiplayandroid.constant.Constant;
 import com.afei.bat.afeiplayandroid.presenter.ILikeActivityPresenter;
 import com.afei.bat.afeiplayandroid.ui.adapter.ILikeAdapter;
-import com.afei.bat.afeiplayandroid.ui.adapter.KnowledgeAdapter;
 import com.afei.bat.afeiplayandroid.ui.base.BaseActivity;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
@@ -24,6 +18,10 @@ import com.chad.library.adapter.base.BaseQuickAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
+import androidx.appcompat.widget.Toolbar;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 

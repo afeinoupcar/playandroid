@@ -27,7 +27,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class HttpManager {
 
     private static final String TAG = "HttpManager";
-    public static final String BASE_URL = "http://www.wanandroid.com/";
+    public static final String BASE_URL = "https://www.wanandroid.com/";
     private static long CONNECT_TIMEOUT = 60L;
     private static long READ_TIMEOUT = 10L;
     private static long WRITE_TIMEOUT = 10L;

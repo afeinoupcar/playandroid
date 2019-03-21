@@ -3,9 +3,6 @@ package com.ltf.util.ui;
 import android.app.ProgressDialog;
 import android.os.Bundle;
 import android.os.Looper;
-import android.support.annotation.Nullable;
-import android.support.annotation.StringRes;
-import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MotionEvent;
@@ -18,6 +15,10 @@ import com.ltf.util.ToastUtils;
 import com.ltf.util.network.RequestError;
 
 import java.lang.reflect.Method;
+
+import androidx.annotation.Nullable;
+import androidx.annotation.StringRes;
+import androidx.fragment.app.Fragment;
 
 /**
  * Created by justin on 16/12/3.

@@ -1,16 +1,16 @@
 package com.afei.bat.afeiplayandroid.ui.adapter;
 
-import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.view.View;
 
 import com.afei.bat.afeiplayandroid.R;
-import com.afei.bat.afeiplayandroid.bean.HomeList;
 import com.afei.bat.afeiplayandroid.bean.KnowledgeList;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
 
 import java.util.List;
+
+import androidx.annotation.Nullable;
 
 /**
  * Created by MrLiu on 2018/3/8.

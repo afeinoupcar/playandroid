@@ -1,21 +1,14 @@
 package com.afei.bat.afeiplayandroid.ui.fragment;
 
 import android.os.Bundle;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 
 import com.afei.bat.afeiplayandroid.R;
-import com.afei.bat.afeiplayandroid.bean.HomeList;
 import com.afei.bat.afeiplayandroid.bean.KnowledgeList;
 import com.afei.bat.afeiplayandroid.bean.StudyList;
 import com.afei.bat.afeiplayandroid.biz.AddRemoveModel;
 import com.afei.bat.afeiplayandroid.constant.Constant;
 import com.afei.bat.afeiplayandroid.presenter.KnowledgeFragmentPresenter;
-import com.afei.bat.afeiplayandroid.ui.adapter.HomeAdapter;
 import com.afei.bat.afeiplayandroid.ui.adapter.KnowledgeAdapter;
 import com.alibaba.android.arouter.launcher.ARouter;
 import com.chad.library.adapter.base.BaseQuickAdapter;
@@ -24,6 +17,9 @@ import com.ltf.util.ui.BaseFragment;
 import java.util.ArrayList;
 import java.util.List;
 
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;

@@ -2,13 +2,10 @@ package com.afei.bat.afeiplayandroid.ui;
 
 import android.os.Bundle;
 import android.os.SystemClock;
-import android.support.annotation.NonNull;
-import android.support.design.widget.BottomNavigationView;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v4.view.GravityCompat;
-import android.support.v4.widget.DrawerLayout;
-import android.support.v7.widget.Toolbar;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.widget.Toolbar;
+import androidx.core.view.GravityCompat;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -26,6 +23,7 @@ import com.afei.bat.afeiplayandroid.ui.fragment.HotFragment;
 import com.afei.bat.afeiplayandroid.ui.fragment.StudyFragment;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.ltf.util.ui.BaseFragment;
 
 import org.greenrobot.eventbus.EventBus;
@@ -35,6 +33,9 @@ import org.greenrobot.eventbus.ThreadMode;
 import java.util.ArrayList;
 import java.util.List;
 
+import androidx.drawerlayout.widget.DrawerLayout;
+import androidx.fragment.app.Fragment;
+import androidx.fragment.app.FragmentTransaction;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;

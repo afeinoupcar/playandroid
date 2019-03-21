@@ -1,9 +1,6 @@
 package com.afei.bat.afeiplayandroid.ui.fragment;
 
 import android.os.Bundle;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.widget.LinearLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.widget.TextView;
@@ -13,13 +10,11 @@ import com.afei.bat.afeiplayandroid.bean.HomeBanner;
 import com.afei.bat.afeiplayandroid.bean.HomeList;
 import com.afei.bat.afeiplayandroid.biz.AddRemoveModel;
 import com.afei.bat.afeiplayandroid.constant.Constant;
-import com.afei.bat.afeiplayandroid.event.LoginEvent;
 import com.afei.bat.afeiplayandroid.event.RefreshEvent;
 import com.afei.bat.afeiplayandroid.presenter.HomeFragmentPresenter;
 import com.afei.bat.afeiplayandroid.ui.adapter.HomeAdapter;
 import com.afei.bat.afeiplayandroid.util.GlideImageLoader;
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.blankj.utilcode.util.ToastUtils;
 import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.ltf.util.ui.BaseFragment;
 import com.youth.banner.Banner;
@@ -30,10 +25,12 @@ import org.greenrobot.eventbus.EventBus;
 import org.greenrobot.eventbus.Subscribe;
 import org.greenrobot.eventbus.ThreadMode;
 
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;

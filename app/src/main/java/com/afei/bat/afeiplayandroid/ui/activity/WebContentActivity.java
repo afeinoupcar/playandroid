@@ -3,20 +3,18 @@ package com.afei.bat.afeiplayandroid.ui.activity;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
-import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import com.afei.bat.afeiplayandroid.R;
-import com.afei.bat.afeiplayandroid.biz.AddRemoveModel;
 import com.afei.bat.afeiplayandroid.constant.Constant;
 import com.afei.bat.afeiplayandroid.ui.base.BaseActivity;
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.just.agentweb.AgentWeb;
 
+import androidx.appcompat.widget.Toolbar;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 

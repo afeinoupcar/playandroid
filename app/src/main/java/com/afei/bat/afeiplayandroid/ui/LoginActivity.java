@@ -1,9 +1,6 @@
 package com.afei.bat.afeiplayandroid.ui;
 
 import android.os.Bundle;
-import android.support.design.widget.TextInputEditText;
-import android.support.design.widget.TextInputLayout;
-import android.support.v7.widget.Toolbar;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
@@ -21,9 +18,12 @@ import com.afei.bat.afeiplayandroid.event.RefreshEvent;
 import com.afei.bat.afeiplayandroid.presenter.LoginPresenter;
 import com.afei.bat.afeiplayandroid.ui.base.BaseActivity;
 import com.alibaba.android.arouter.facade.annotation.Route;
+import com.google.android.material.textfield.TextInputEditText;
+import com.google.android.material.textfield.TextInputLayout;
 
 import org.greenrobot.eventbus.EventBus;
 
+import androidx.appcompat.widget.Toolbar;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;

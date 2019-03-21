@@ -1,6 +1,5 @@
 package com.afei.bat.afeiplayandroid.ui.adapter;
 
-import android.support.annotation.Nullable;
 import android.text.TextUtils;
 import android.view.View;
 
@@ -10,6 +9,8 @@ import com.chad.library.adapter.base.BaseQuickAdapter;
 import com.chad.library.adapter.base.BaseViewHolder;
 
 import java.util.List;
+
+import androidx.annotation.Nullable;
 
 /**
  * Created by MrLiu on 2018/3/8.

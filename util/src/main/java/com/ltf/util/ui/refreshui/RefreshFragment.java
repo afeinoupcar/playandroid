@@ -1,8 +1,6 @@
 package com.ltf.util.ui.refreshui;
 
 import android.os.Bundle;
-import android.support.v4.widget.SwipeRefreshLayout;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 
 import com.ltf.util.LogUtil;
@@ -17,6 +15,9 @@ import com.ltf.util.ui.BaseFragment;
 import com.ltf.util.ui.BaseRecyclerAdapter;
 
 import java.util.List;
+
+import androidx.recyclerview.widget.RecyclerView;
+import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 /**
  * Created by justin on 16/12/3.
